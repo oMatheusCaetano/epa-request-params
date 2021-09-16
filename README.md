@@ -78,20 +78,20 @@ Phones:
    ```json
    [
        {
-       	id: 1,
-           nome: "Maria Bolacha",
-           telefones: [
+       	"id": 1,
+           "nome": "Maria Bolacha",
+           "telefones": [
                {
-                   id: 1,
-                   ddd: 62,
-                   number: "91234-5678",
-                   user_id: 1,
+                   "id": 1,
+                   "ddd": 62,
+                   "number": "91234-5678",
+                   "user_id": 1,
                },
                {
-                   id: 2,
-                   ddd: 64,
-                   number: "99874-6541",
-                   user_id: 1,
+                   "id": 2,
+                   "ddd": 64,
+                   "number": "99874-6541",
+                   "user_id": 1,
                }
            ]
    	}
@@ -111,21 +111,21 @@ Phones:
    ```json
    [
        {
-       	id: 1,
-           nome: "Maria Bolacha",
-           telefones: [
+       	"id": 1,
+           "nome": "Maria Bolacha",
+           "telefones": [
                {
-                   id: 2,
-                   ddd: 64,
-                   number: "99874-6541",
-                   user_id: 1,
+                   "id": 2,
+                   "ddd": 64,
+                   "number": "99874-6541",
+                   "user_id": 1,
                }
            ]
    	},
        {
-       	id: 2,
-           nome: "João Biscoito",
-           telefones: []
+       	"id": 2,
+           "nome": "João Biscoito",
+           "telefones": []
    	},
    ]
    ```
@@ -185,14 +185,14 @@ EX (Sem `onlyColumns`):
 ```json
 [
     {
-    	id: 15,
-        nome: "Maria Bolacha",
-        sexo: "F"
+    	"id": 15,
+        "nome": "Maria Bolacha",
+        "sexo": "F"
 	},
     {
-    	id: 16,
-        nome: "João Biscoito",
-        sexo: "M"
+    	"id": 16,
+        "nome": "João Biscoito",
+        "sexo": "M"
 	},
 ]
 ```
@@ -208,12 +208,12 @@ EX (Com `onlyColumns`):
 ```json
 [
     {
-    	id: 15,
-        nome: "Maria Bolacha"
+    	"id": 15,
+        "nome": "Maria Bolacha"
 	},
     {
-    	id: 16,
-        nome: "João Biscoito"
+    	"id": 16,
+        "nome": "João Biscoito"
 	},
 ]
 ```
@@ -249,14 +249,14 @@ Vamos imaginar que temos a tabelas abaixo com o seguinte has text: `protected $h
 ```json
 [
     {
-    	id: 1,
-        nome: "Rua Goiânia",
+    	"id": 1,
+        "nome": "Rua Goiânia",
         "cidade": "Goiania"
 	},
     {
-    	id: 2,
-        nome: "Rua São Paulo",
-        cidade: "Goiania"
+    	"id": 2,
+        "nome": "Rua São Paulo",
+        "cidade": "Goiania"
 	},
 ]
 ```
@@ -324,32 +324,32 @@ Com isso, podemos adicionar o parâmetro with na requisição para trazer os dad
 ```json
 [
     {
-    	id: 1,
-        nome: "Maria Bolacha",
-        telefones: [
+    	"id": 1,
+        "nome": "Maria Bolacha",
+        "telefones": [
             {
-                id: 1,
-                ddd: 62,
-                number: "91234-5678",
-                user_id: 1,
+                "id": 1,
+                "ddd": 62,
+                "number": "91234-5678",
+                "user_id": 1,
             },
             {
-                id: 2,
-                ddd: 64,
-                number: "99874-6541",
-                user_id: 1,
+                "id": 2,
+                "ddd": 64,
+                "number": "99874-6541",
+                "user_id": 1,
             },
         ]
 	},
     {
-    	id: 2,
-        nome: "João Biscoito",
-        telefones: [
+    	"id": 2,
+        "nome": "João Biscoito",
+        "telefones": [
             {
-                id: 3,
-                ddd: 62,
-                number: "91155-9201",
-                user_id: 2,
+                "id": 3,
+                "ddd": 62,
+                "number": "91155-9201",
+                "user_id": 2,
             },
         ]
 	},
